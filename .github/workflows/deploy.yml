@@ -33,6 +33,21 @@ jobs:
       - name: Build
         run: npm run build
 
+      - name: Build
+        run: npm run build
+
+      - name: Debug build output
+        run: |
+          echo "PWD: $(pwd)"
+          echo "Top level:"
+          ls -la
+          echo "dist:"
+          ls -la dist || true
+          echo "build:"
+          ls -la build || true
+          echo "out:"
+          ls -la out || true
+          
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
