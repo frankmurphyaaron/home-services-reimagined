@@ -5,7 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "/YOUR-REPO-NAME/",
+  base: "/HOME-SERVICES-REIMAGINED/",
   plugins: [react()],
 })
   server: {
