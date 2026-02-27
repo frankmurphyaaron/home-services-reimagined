@@ -5,6 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 export default defineConfig({
   base: "/home-services-reimagined/",
+  // ...rest})
   plugins: [react()],
   server: {
     host: "::",
